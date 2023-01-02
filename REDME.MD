@@ -1,4 +1,3 @@
-![image](https://user-images.githubusercontent.com/53450320/210222187-7556f293-a4da-4ece-acee-3aad52a8d8a1.png)
-
+![image](https://user-images.githubusercontent.com/53450320/210224672-d7603912-9f5f-4202-9265-568871ea44bb.png)
 
 A simple tic-tac-toe game against the computer. After making a move, the computer checks whether it can win, whether it should block the opponent or make a free move. Performs the action.
