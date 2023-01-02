@@ -131,7 +131,7 @@ def print_result(WINER):
     if WINER == 1:
         text = u'BRAWO, Wygrałeś'
     elif WINER == 2:
-        text = u'Niestey przegrana :( '
+        text = u'Niestey przegrana'
     elif WINER == 3:
         text = 'Remis!'
     text_ob = fontObj.render(text, True, (20, 255, 20))
@@ -168,5 +168,5 @@ while True:
     draw_game_window()
     draw_playing_game()
     if WIN:
-        print_result(WIN)
+        print_result(WINER)
     pygame.display.update()
